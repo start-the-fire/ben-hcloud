@@ -38,8 +38,8 @@ interface HttpResponse {
 export default class HttpClient extends Node {
     specification: StreamNodeSpecificationV2 = {
         specVersion: 2,
-        name: "Das ist ein Test",
-        description: "Hallo Darius",
+        name: "HTTP Client",
+        description: "HTTP client for sending HTTP requests",
         category: "Networking",
         version: {
             major: 0,
